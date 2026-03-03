@@ -4,10 +4,10 @@ This repository contains a simple end-to-end project for predicting whether an a
 
 ## Contents
 
-- **Jupyter Notebook ('.ipynb')**  
+- **Jupyter Notebook ('Traffic_ML_Model.ipynb.ipynb')**  
   The full workflow: data loading (memory-safe column selection), feature engineering, model training, evaluation (PR AUC, precision/recall with thresholding), and feature importance.
 
-- **Technical Report ('.docx')**  
+- **Technical Report ('US_Accidents_Severity_Report.docx')**  
   A short write-up of the approach, key decisions (imbalance, leakage considerations), results, and interpretations.
 
 ## How to Use
