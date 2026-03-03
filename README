@@ -1,0 +1,17 @@
+# US Accidents, Severity 4 Prediction
+
+This repository contains a simple end-to-end project for predicting whether an accident is **critical severity (Severity = 4)** using contextual features available at the time of the event (time, weather, infrastructure, coarse geography).
+
+## Contents
+
+- **Jupyter Notebook ('.ipynb')**  
+  The full workflow: data loading (memory-safe column selection), feature engineering, model training, evaluation (PR AUC, precision/recall with thresholding), and feature importance.
+
+- **Technical Report ('.docx')**  
+  A short write-up of the approach, key decisions (imbalance, leakage considerations), results, and interpretations.
+
+## How to Use
+
+1. Open the notebook and set the dataset path near the top.
+2. Run all cells top-to-bottom to reproduce results.
+3. Read the '.docx' report for the final narrative and conclusions.
